@@ -16,11 +16,11 @@
         
         <nav class="menu">
           <a href="#">Inicio</a>
-          <a href="#">Frapes</a>
-          <a href="#">Especiales</a>
-          <a href="#">Capuccino</a>
-          <a href="#">Membrecia</a>
-          <a href="#">Reseñas</a>
+          <a href="#Frapes">Frapes</a>
+          <a href="#Especiales">Especiales</a>
+          <a href="#Capuccino">Capuccino</a>
+          <a href="#Membrecia">Membresía</a>
+          <a href="#Reseñas">Reseñas</a>
         </nav>
         <div class="search-cart">
           <input type="text" placeholder="Buscar...">
@@ -56,9 +56,9 @@
         
     <!-- Products Section -->
     <section class="products">
-      <div class="container">
-        <h3>Nuestros Frapes</h3>
-        <div class="buttons-container">
+      <div class="container" id="Frapes">
+        <h3>Nuestros Frapes</h3> 
+        <div class="buttons-container" > 
             <button class="filter-button">Destacados</button>
             <button class="filter-button">Más Recientes</button>
             <button class="filter-button">Mejores Vendidos</button>
@@ -100,7 +100,7 @@
     <!--EFecto Hover-->
   
     <section>
-        <div class="jewelry-container">
+        <div class="jewelry-container" id="Capuccino">
             <div class="jewelry-card">
                 <img src="https://images.pexels.com/photos/5812847/pexels-photo-5812847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Gold Necklace" width="1000px">
             </div>
@@ -121,7 +121,7 @@
 </section>
 
  <!-- Products Section -->
- <section class="products">
+ <section class="products" id="Especiales">
     <div class="container">
       <h3>Especiales</h3>
       <div class="products-grid">
@@ -142,7 +142,7 @@
         <div class="product-item">
           <span class="discount">-3%</span>
           <img src="https://i.pinimg.com/736x/0d/4f/b7/0d4fb773cb2184bd8b1f9e82faa38be2.jpg" alt="Café Viena">
-          <h4>Ensalada Cesar</h4>
+          <h4>Ensalada César</h4>
           <div class="stars">★★★★★</div>
           <span class="price">$350.85 <del>$550.50</del></span>
         </div>
@@ -157,147 +157,107 @@
   </section>
 
   
-  <!--Carta de precio-->
-  
-  <section class="pricing-section">
-    <div class="pricing-container">
-        <!-- Carta 1: Anillo de Oro -->
-        <div class="pricing-card">
-            <img src="https://media.istockphoto.com/id/507797136/photo/woman-at-cafe.jpg?s=612x612&w=0&k=20&c=Tf6TMWwBKecHZQJ7BwuvcuznWD6YN3LX9VajGEQRjHw=" alt="Anillo de Oro" class="product-image">
-            <h3>Plan Basico</h3>
-            <p class="price">&#x20B9; 500</p>
-            <ul>
-                <li>1 café regular al día (americano o latte).</li>
-                <li>10% de descuento en productos adicionales.s</li>
-                <li>Acceso a Wi-Fi gratuito.</li>
-                <li>Tarjeta de fidelidad para acumular puntos</li>
-            </ul>
-            <a href="#" class="pricing-button">Comprar Ahora</a>
-        </div>
-        <!-- Carta 2: Collar de Plata -->
-        <div class="pricing-card">
-            <img src="https://media.istockphoto.com/id/674007340/photo/coffee-shop-man-and-woman-having-a-coffee.jpg?s=612x612&w=0&k=20&c=5PPQuXxVhv7_u0rfn4dkMHhG35v65XNWBPSgSo56Xts=" alt="Collar de Plata" class="product-image">
-            <h3>Plan Intermedio</h3>
-            <p class="price">&#x20B9; 1000</p>
-            <ul>
-                <li>Hasta 2 bebidas al día (cualquier especialidad del menú).</li>
-                <li>15% de descuento en repostería y snacks.</li>
-                <li>Acceso prioritario en horarios concurridos</li>
-                <li> Invitación a eventos exclusivos como catas de café</li>
-            </ul>
-            <a href="#" class="pricing-button">Comprar Ahora</a>
-        </div>
-        <!-- Carta 3: Pulsera de Diamantes -->
-        <div class="pricing-card">
-            <img src="https://media.istockphoto.com/id/919011418/photo/man-drinks-cappuccino-and-eats-croissant.jpg?s=612x612&w=0&k=20&c=tkCzJ5hb9-yA81sLW8IdW9MClPRcC4jwHbuo7v33gto=" alt="Pulsera de Diamantes" class="product-image">
-            <h3>Plan Premiun</h3>
-            <p class="price">&#x20B9; 2500</p>
-            <ul>
-                <li>Bebidas ilimitadas del menú.</li>
-                <li>20% de descuento en productos, regalos y accesorios.</li>
-                <li>Repostería gratuita con cada visita.</li>
-                <li>Acceso exclusivo a áreas VIP y reservas de espacios</li>
-            </ul>
-            <a href="#" class="pricing-button">Comprar Ahora</a>
-        </div>
-    </div>
+ <!-- Carta de precio -->
+<section class="pricing-section" id="Membrecia">
+  <h2 style="text-align: center; font-size: 2rem; margin-bottom: 20px; color: #ffffff; font-weight: bold;">Membrecía</h2>
+  <div class="pricing-container">
+      <!-- Carta 1: membresia 1 -->
+      <div class="pricing-card">
+          <img src="https://i.pinimg.com/736x/62/62/87/626287d30a63c1e4e96f1c8c84424ed7.jpg" alt="Anillo de Oro" class="product-image">
+          <h3>Plan básico</h3>
+          <p class="price">&#x20B9; 15,000</p>
+          <ul>
+              <li>1 café regular al día (americano o latte).</li>
+              <li>10% de descuento en productos adicionales.</li>
+              <li>Acceso a Wi-Fi gratuito para miembros.</li>
+              <li>Tarjeta de fidelidad para acumular puntos</li>
+          </ul>
+          <a href="#" class="pricing-button">Comprar Ahora</a>
+      </div>
+      <!-- Carta 1: membresia 2 -->
+      <div class="pricing-card">
+          <img src="https://i.pinimg.com/736x/68/9c/85/689c85cf8c172a27ef8e26d5f251b310.jpg" alt="Collar de Plata" class="product-image">
+          <h3>Plan Intermedio</h3>
+          <p class="price">&#x20B9; 8,000</p>
+          <ul>
+              <li>Hasta 2 bebidas al día (cualquier especialidad del menú).</li>
+              <li>15% de descuento en repostería y snacks.</li>
+              <li>Acceso prioritario en horarios concurridos.</li>
+              <li>Invitación a eventos exclusivos como catas de café.</li>
+          </ul>
+          <a href="#" class="pricing-button">Comprar Ahora</a>
+      </div>
+     <!-- Carta 1: membresia 3 -->
+      <div class="pricing-card">
+          <img src="https://i.pinimg.com/736x/9a/0c/e6/9a0ce600ce991828f4424d6b601ffe9c.jpg" alt="Pulsera de Diamantes" class="product-image">
+          <h3>Plan Premiun</h3>
+          <p class="price">&#x20B9; 25,000</p>
+          <ul>
+              <li>Bebidas ilimitadas del menú.</li>
+              <li>20% de descuento en productos, regalos y accesorios.</li>
+              <li>Repostería gratuita con cada visita.</li>
+              <li>Acceso exclusivo a áreas VIP y reservas de espacios</li>
+          </ul>
+          <a href="#" class="pricing-button">Comprar Ahora</a>
+      </div>
+  </div>
 </section>
 
-
-<section class="products" id="products">
-  <div class="contenedor">
+<!-- Card Flip -->
+<section>
+  <h2 style="text-align: center; font-size: 2rem; margin-bottom: 20px; color: #b18553; font-weight: bold;"> Nuestras Reseñas</h2>
+  <div class="card-container" id="Reseñas">
       <!-- Card 1 -->
-      <div class="cartas" style="--clr: #d4af37">
-          <div class="caja-img">
-              <img src="https://images.pexels.com/photos/9678715/pexels-photo-9678715.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Anillo de diamante">
+      <div class="card">
+          <div class="front">
+              <img src="https://i.pinimg.com/736x/75/34/87/753487292e5259c1160c9fcc507d0737.jpg" alt="Diamond Ring">
           </div>
-          <div class="contenido">
-              <h2>Misión</h2>
-              <p>
-                Brindar experiencias únicas a través de café de alta calidad, en un ambiente cálido y acogedor, fomentando conexiones genuinas.
-              </p>
-              <a href="#">Coffee House</a>
+          <div class="back">
+              <div class="details">
+                <div class="caption">
+                  "Este lugar es simplemente magico"
+              </div>
+              <h2>☕ El rincón perfecto para los amantes del café</h2>
+              <span>Desde el primer sorbo, el aroma y el sabor te envuelven en una experiencia única. Cada taza está preparada con cariño, y el ambiente cálido invita a quedarte más tiempo. Ideal para desconectarte y disfrutar de momentos inolvidables. 🌟🌟</span>
+          </div>
           </div>
       </div>
-
       <!-- Card 2 -->
-      <div class="cartas" style="--clr: #ffd700">
-          <div class="caja-img">
-              <img src="https://images.pexels.com/photos/13677015/pexels-photo-13677015.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Pulsera de oro">
+      <div class="card">
+          <div class="front">
+              <img src="https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-joven-modelo-vistiendo-ropa-casual-camisa-hombre-elegante-moda-posando_158538-5313.jpg?t=st=1737722057~exp=1737725657~hmac=2852ada5876e36995edc01784eea00fb3b82737533a031d07fee8efbbfcdea43&w=360" alt="Pearl Necklace">
           </div>
-          <div class="contenido">
-              <h2>Visión</h2>
-              <p>
-                Ser la cafetería favorita, ofreciendo un ambiente acogedor y momentos únicos en cada taza.
-              </p>
-              <a href="#">Coffee House</a>
+          <div class="back">
+              <div class="details">
+                <div class="caption">
+                  "Aqui todo es puro arte"
+              </div>
+              <h2>Un deleite para el paladar y los sentidos</h2>
+              <span>No solo tienen el mejor café, ¡sus postres son una obra de arte! El cheesecake y los brownies son un "must". Todo esto acompañado de una decoración acogedora y un servicio excepcional. Un lugar que querrás visitar una y otra vez. </span>
+          </div>
           </div>
       </div>
-
-    
-
- 
-  
-  
-      
-        <!--Card Flip-->
- <section>
-    <div class="card-container">
-        <!-- Card 1 -->
-         
-     
-        <div class="card">
-            <div class="front">
-                <img src="https://i.pinimg.com/736x/75/34/87/753487292e5259c1160c9fcc507d0737.jpg" alt="Diamond Ring">
-            </div>
-            <div class="back">
-                <div class="details">
-                    <div class="caption">
-                        "Este lugar es simplemente magico"
-                    </div>
-                    <h2>☕ El rincón perfecto para los amantes del café</h2>
-                    <span>Desde el primer sorbo, el aroma y el sabor te envuelven en una experiencia única. Cada taza está preparada con cariño, y el ambiente cálido invita a quedarte más tiempo. Ideal para desconectarte y disfrutar de momentos inolvidables. 🌟🌟</span>
-                </div>
-            </div>
-        </div>
-        <!-- Card 2 -->
-        <div class="card">
-            <div class="front">
-                <img src="https://img.freepik.com/foto-gratis/retrato-guapo-sonriente-joven-modelo-vistiendo-ropa-casual-camisa-hombre-elegante-moda-posando_158538-5313.jpg?t=st=1737722057~exp=1737725657~hmac=2852ada5876e36995edc01784eea00fb3b82737533a031d07fee8efbbfcdea43&w=360" alt="Pearl Necklace">
-            </div>
-            <div class="back">
-                <div class="details">
-                    <div class="caption">
-                        "Aqui todo es puro arte"
-                    </div>
-                    <h2>Un deleite para el paladar y los sentidos</h2>
-                    <span>No solo tienen el mejor café, ¡sus postres son una obra de arte! El cheesecake y los brownies son un "must". Todo esto acompañado de una decoración acogedora y un servicio excepcional. Un lugar que querrás visitar una y otra vez. </span>
-                </div>
-            </div>
-        </div>
-        <!-- Card 3 -->
-        <div class="card">
-            <div class="front">
-                <img src="https://i.pinimg.com/736x/42/21/2f/42212fdb6422c090ce0f614361c02164.jpg" alt="Gold Bracelet">
-            </div>
-            <div class="back">
-                <div class="details">
-                    <div class="caption">
-                        🎶 Café, arte y buena vibra
-                      
-                    </div>
-                    <h2>En mi opinion</h2>
-                    <span>
-                      Aquí no solo encuentras un buen café, también encuentras inspiración. Música suave, arte en las paredes y un personal que siempre tiene una sonrisa. Perfecto para una charla, una cita o simplemente disfrutar de tu propio tiempo. 🌈</span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
+      <!-- Card 3 -->
+      <div class="card">
+          <div class="front">
+              <img src="https://i.pinimg.com/736x/42/21/2f/42212fdb6422c090ce0f614361c02164.jpg" alt="Gold Bracelet">
+          </div>
+          <div class="back">
+              <div class="details">
+                  <div class="caption">
+                      🎶 Café, arte y buena vibra
+                  </div>
+                  <h2>En mi opinión</h2>
+                  <span>Aquí no solo encuentras un buen café, también encuentras inspiración. Música suave, arte en las paredes y un personal que siempre tiene una sonrisa. Perfecto para una charla, una cita o simplemente disfrutar de tu propio tiempo. 🌈</span>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
 
 
 </section>
+<img src="" alt="">
 
     <!-- Footer -->
           <footer>

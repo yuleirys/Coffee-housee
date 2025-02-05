@@ -284,6 +284,11 @@ p {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    transition:1s;
+  }
+
+  .btn:hover {
+    color: #996652;
   }
   
   /* Features */
@@ -425,6 +430,7 @@ p {
     top: 130px;
     height: 250px;
 }
+
 
 .contenedor .cartas .contenido h2 {
     font-size: 1.5rem;
@@ -607,6 +613,7 @@ footer {
     color: #cccc;
     padding: 20px 0px;
     margin: 0;
+    background: url("https://i.pinimg.com/736x/3e/c2/59/3ec259d4dcffd190cb314a90683ed459.jpg");
   }
 
   .footer-container {
@@ -648,6 +655,12 @@ footer {
     width: 70%;
     margin-right: 10px;
   }
+
+  .footer-image {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
 
   .newsletter button {
     padding: 10px 15px;
@@ -696,3 +709,7 @@ footer {
       margin-bottom: 10px;
     }
   }
+
+
+
+ 
